@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pet-commodity-service" />
+        <module name="cloud-commons" />
+        <module name="pet-administration-service" />
+        <module name="pet-commodity-service2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pet-cloud-shop" target="1.8" />
+      <module name="pet-commodity-service (1)" target="1.7" />
+      <module name="pet-commodity-service 2" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-commons" options="-parameters" />
+      <module name="pet-administration-service" options="-parameters" />
+      <module name="pet-cloud-shop" options="-parameters" />
+      <module name="pet-commodity-service" options="-parameters" />
+      <module name="pet-commodity-service (1)" options="-parameters" />
+      <module name="pet-commodity-service 2" options="-parameters" />
+      <module name="pet-commodity-service2" options="-parameters" />
+    </option>
+  </component>
+</project>
