@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/makeFunPetShopSystem/cloud-commons/cloud-commons.iml" filepath="$PROJECT_DIR$/makeFunPetShopSystem/cloud-commons/cloud-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/makeFunPetShopSystem/makeFunPetShopSystem.iml" filepath="$PROJECT_DIR$/makeFunPetShopSystem/makeFunPetShopSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/makeFunPetShopSystem/pet-administration-service/pet-administration-service.iml" filepath="$PROJECT_DIR$/makeFunPetShopSystem/pet-administration-service/pet-administration-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/makeFunPetShopSystem/pet-cloud-server/pet-cloud-server.iml" filepath="$PROJECT_DIR$/makeFunPetShopSystem/pet-cloud-server/pet-cloud-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/makeFunPetShopSystem/pet-commodity-service/pet-commodity-service.iml" filepath="$PROJECT_DIR$/makeFunPetShopSystem/pet-commodity-service/pet-commodity-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/makeFunPetShopSystem/pet-commodity-service2/pet-commodity-service2.iml" filepath="$PROJECT_DIR$/makeFunPetShopSystem/pet-commodity-service2/pet-commodity-service2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pet-shop-cloud.iml" filepath="$PROJECT_DIR$/.idea/pet-shop-cloud.iml" />
+    </modules>
+  </component>
+</project>

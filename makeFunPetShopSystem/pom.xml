@@ -13,6 +13,7 @@
         <module>pet-administration-service</module>
         <module>pet-commodity-service</module>
         <module>pet-commodity-service2</module>
+        <module>pet-cloud-server</module>
     </modules>
 
 

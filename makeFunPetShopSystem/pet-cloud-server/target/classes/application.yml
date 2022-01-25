@@ -1,0 +1,30 @@
+server:
+  port: 7666
+spring:
+  application:
+    name: gateway
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+      discovery:
+        service-name: ${spring.application.name}
+    gateway:
+      discovery:
+        locator:
+          enabled: false  #???????????????
+          lower-case-service-id: true
+      routes:
+        - id: user
+          uri: lb://cloud-user
+#          GatewayPredicate
+          predicates:
+            - Path=/api/**
+#            GatewayFilter
+          filters:
+            - StripPrefix=1
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"   #?????????  /actuator/gateway/routes

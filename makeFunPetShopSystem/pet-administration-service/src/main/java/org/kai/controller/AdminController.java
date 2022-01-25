@@ -11,8 +11,7 @@ import java.util.Map;
 @RestController
 public class AdminController {
 
-    @Value("${server.port}")
-    private String port;
+
     @Autowired
     private CommodityClient commodityClient;
 
